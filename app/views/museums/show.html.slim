@@ -1,0 +1,25 @@
+h1
+  = @museum.name
+div
+  = @museum.address
+div
+  = @museum.prefecture.name
+div
+  = @museum.opening_at
+  = @museum.closing_at
+div
+  = @museum.closed_day
+ul
+  li
+    = link_to "Edit", edit_museum_path(@museum)
+  li
+    = link_to "Delete", museum_path(@museum), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" }
+
+h2 展覧会
+ul
+  - @museum.exhibitions.each do |exhibition|
+    li
+      = exhibition.title
+      = exhibition.start_date
+      = exhibition.end_date
+      = exhibition.price

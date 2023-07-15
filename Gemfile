@@ -48,6 +48,8 @@ gem 'seed-fu'
 # Rename Application Name
 gem 'rename'
 
+gem 'slim-rails'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

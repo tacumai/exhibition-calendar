@@ -1,0 +1,21 @@
+h1 New Museum
+
+= form_with model: @museum do |form|
+  div
+    = form.label :name
+    br
+    = form.text_field :name
+  div
+    = form.label :address
+    br
+    = form.text_area :address
+  div
+    = form.time_field :opening_at
+  div
+    = form.time_field :closing_at
+  div
+    = form.weekday_select :closed_day, index_as_value: true
+  div
+    = form.select :prefecture_id, @prefecture.map {|p| [p.name, p.id]}, { include_blank: '選択してください' }
+  div
+    = form.submit

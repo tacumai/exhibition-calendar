@@ -76,6 +76,7 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v7.0.5, rbenv: 3.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, rbenv: 3.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.5, rbenv: 3.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rename (v1.0.8, rbenv: 3.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="seed-fu (v2.3.9, rbenv: 3.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.0, rbenv: 3.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, rbenv: 3.2.0) [gem]" level="application" />
